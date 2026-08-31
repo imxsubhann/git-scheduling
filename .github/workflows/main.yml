@@ -2,7 +2,7 @@ name: AUTO SHEDULING BACKUP
 
 on:
  schedule:
-   - cron: "28 12 31 * *"
+   - cron: "35 12 * * *"
 
 jobs:
  Sheduling:
