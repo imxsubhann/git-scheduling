@@ -1,0 +1,14 @@
+name: AUTO SHEDULING BACKUP
+
+on:
+ schedule:
+   - cron: "0 0 * * *"
+
+jobs:
+ Sheduling:
+  runs-on: ubuntu-latest
+
+  steps:
+   - name: Auto sheduling
+     run: echo "your sheduling has been started so just wait and watch"
+     
